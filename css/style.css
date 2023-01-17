@@ -56,7 +56,7 @@ body {
   z-index: -5;
   top: -79px;
   overflow: hidden;
-  height: 4552px;
+  height: 4675px;
   width: 100%;
 }
 
@@ -774,6 +774,22 @@ h2 {
   margin: 0 auto;
 }
 
+.partners__container-left {
+  max-width: 846px;
+  width: 100%;
+  margin: 0 auto 36px auto;
+  display: flex;
+  justify-content: space-between;
+} 
+
+.partners__container-right {
+  max-width: 435px;
+  width: 100%;  
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}   
+
 .services__top-blocks {
   display: flex;
   justify-content: space-between;
@@ -1145,7 +1161,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 927px;
+  max-width: 1323px;
   width: 100%;
 }
 
@@ -1154,6 +1170,10 @@ h2 {
 }
 
 .partners__img {
+}
+
+.partners__img-cuc {
+  margin-top: 9px;
 }
 
 .contacts {
@@ -1366,6 +1386,22 @@ footer {
     bottom: -3720px;
   }
 
+  .partners__container {
+    display: block;
+  }
+
+  .partners__container-left,
+  .partners__container-right {
+    display: flex;
+    justify-content: space-between;
+  }  
+
+  .partners__img,
+  .partners__img-cuc {
+    display: block;
+    margin: 0 auto;
+  }
+
 }
 
 @media only screen and (max-width: 1269px) {
@@ -1391,7 +1427,7 @@ footer {
 @media only screen and (max-width: 1239px) {
 
   .background {
-    height: 4464px;
+    height: 4739px;
     top: -79px;
   }
 
@@ -1409,6 +1445,12 @@ footer {
   .services__block {
     margin-right: 18px;
   }
+
+.partners__container-left,
+.partners__container-right  {
+  display: block;
+} 
+
 
   .clients._active {
     margin-top: 0;
@@ -1439,7 +1481,7 @@ footer {
 
   .background__container {
     top: -97px;
-    height: 5648px;
+    height: 5788px;
   }  
 
   .background-zero-1 {
@@ -1467,11 +1509,6 @@ footer {
   .partners__container a {
     display: block;
     margin-bottom: 32px;
-  }
-
-  .partners__img {
-    display: block;
-    margin: 0 auto;
   }
 
   .our-cases__container {
@@ -1531,7 +1568,7 @@ footer {
 @media only screen and (max-width: 820px) {
 
   .background__container {
-    height: 5547px;
+    height: 5643px;
   }  
 
   .clients__img-gmail {
@@ -1544,7 +1581,7 @@ footer {
 @media only screen and (max-width: 768px) {
 
   .background__container {
-    height: 5527px;
+    height: 5674px;
   }
 
 }
@@ -1552,11 +1589,11 @@ footer {
 @media only screen and (max-width: 764px) {
 
   .background__container {
-    height: 4618px;
+    height: 4760px;
   }  
 
   .background {
-    height: 4779px;
+    height: 4923px;
     top: -155px;
   }
 
@@ -1817,7 +1854,7 @@ footer {
   }  
 
   .background__container {
-    height: 4867px;
+    height: 4989px;
   }
 
   .our-cases__blocks-info {
@@ -1837,7 +1874,7 @@ footer {
 @media only screen and (max-width: 520px) {
 
   .background__container {
-    height: 5007px;
+    height: 5070px;
   }  
 
   h1 {
@@ -1980,7 +2017,7 @@ footer {
 @media only screen and (max-width: 447px) {
 
   .background__container {
-    height: 5016px;
+    height: 5104px;
   }
 
 }
@@ -1989,7 +2026,7 @@ footer {
 @media only screen and (max-width: 375px) {
 
   .background__container {
-    height: 5074px;
+    height: 5293px;
   }  
 
   .background {
